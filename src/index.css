@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  /* font-family: "HurmeHEMA", "Century Gothic", CenturyGothic, AppleGothic, sans-serif; */
+  font-family: "Roboto", sans-serif;
+}
+
+.custom{
+  width: 1280px !important;
+}
+
+@media(max-width:1280px){
+  .custom{
+    width: 100% !important;
+    padding: 0 10px;
+  }
+}
