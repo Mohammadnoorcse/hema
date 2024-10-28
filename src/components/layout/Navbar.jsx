@@ -31,54 +31,54 @@ const Navbar = () => {
     <>
       {/* top navbar */}
       <div
-        className={`w-full h-[2rem] lg:flex justify-center items-center hidden mb-4 mt-2 ${
+        className={`w-full h-[41px] lg:flex justify-center items-center hidden  ${
           cateHover ? "bg-[#929292] ease-linear duration-300" : ""
         }`}
       >
         <div className="custom flex justify-between items-center">
           {/* left side */}
-          <div className="flex gap-4 items-center text-sm text-[#323232] font-semibold leading-[16px]">
-            <Link to="/" className="group relative">
-              <span className="text-[#323232] group-hover:text-black opacity-[0.9]">
+          <div className="flex  items-center text-sm text-[#323232] font-semibold leading-[16px]">
+            <Link to="/" className="group relative mr-[24px]">
+              <span className="text-[14px] font-[600] leading-[16px] text-[#323232] group-hover:text-black">
                 fotoservice
               </span>
               <span className="absolute bottom-0 left-0 w-full h-[1px] bg-black scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-[0.5s] ease-in"></span>
             </Link>
-            <Link to="/" className="group relative">
-              <span className="text-[#323232] group-hover:text-black opacity-[0.9]">
+            <Link to="/" className="group relative mr-[24px]">
+              <span className="text-[14px] font-[600] leading-[16px] text-[#323232] group-hover:text-black ">
                 tickets & deals
               </span>
               <span className="absolute bottom-0 left-0 w-full h-[1px] bg-black scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-[0.5s] ease-in"></span>
             </Link>
-            <Link to="/" className="group relative">
-              <span className="text-[#323232] group-hover:text-black opacity-[0.9]">
+            <Link to="/" className="group relative mr-[24px]">
+              <span className="text-[14px] font-[600] leading-[16px] text-[#323232] group-hover:text-black ">
                 verzekeringen
               </span>
               <span className="absolute bottom-0 left-0 w-full h-[1px] bg-black scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-[0.5s] ease-in"></span>
             </Link>
             <Link to="/" className="group relative">
-              <span className="text-[#323232] group-hover:text-black opacity-[0.9]">
+              <span className="text-[14px] font-[600] leading-[16px] text-[#323232] group-hover:text-black ">
                 inspiratie
               </span>
               <span className="absolute bottom-0 left-0 w-full h-[1px] bg-black scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-[0.5s] ease-in"></span>
             </Link>
           </div>
           {/* right side */}
-          <div className="flex gap-4 items-center text-sm text-[#323232] font-semibold leading-[16px]">
-            <Link to="/" className="group relative">
-              <span className="text-[#323232] group-hover:text-black opacity-[0.9]">
+          <div className="flex  items-center text-sm text-[#323232] font-semibold leading-[16px]">
+            <Link to="/" className="group relative mr-[24px]">
+              <span className="text-[14px] font-[600] leading-[16px] text-[#323232] group-hover:text-black opacity-[0.9]">
                 winkels
               </span>
               <span className="absolute bottom-0 left-0 w-full h-[1px] bg-black scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-[0.5s] ease-in"></span>
             </Link>
-            <Link to="/" className="group relative">
-              <span className="text-[#323232] group-hover:text-black opacity-[0.9]">
+            <Link to="/" className="group relative mr-[24px]">
+              <span className="text-[14px] font-[600] leading-[16px] text-[#323232] group-hover:text-black opacity-[0.9]">
                 klantenpas
               </span>
               <span className="absolute bottom-0 left-0 w-full h-[1px] bg-black scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-[0.5s] ease-in"></span>
             </Link>
             <Link to="/" className="group relative">
-              <span className="text-[#323232] group-hover:text-black opacity-[0.9]">
+              <span className="text-[14px] font-[600] leading-[16px] text-[#323232] group-hover:text-black opacity-[0.9]">
                 klantenservice
               </span>
               <span className="absolute bottom-0 left-0 w-full h-[1px] bg-black scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-[0.5s] ease-in"></span>

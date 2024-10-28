@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 *{
-  /* font-family: "HurmeHEMA", "Century Gothic", CenturyGothic, AppleGothic, sans-serif; */
-  font-family: "Roboto", sans-serif;
+  font-family: "HurmeHEMA", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  /* font-family: "Roboto", sans-serif; */
 }
 
 .custom{
